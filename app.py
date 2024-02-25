@@ -43,6 +43,10 @@ st.image('static/dino-logo.png',width=100)
 st.header("THIS :green[IS] :orange[NOT] A :blue[DINOSAUR]", divider='rainbow')
 st.markdown(':green[_Jurassic or Just-a-pic? Let our Dino-Detective decide!_]')
 
+with st.sidebar:
+    st.header("What's this?!", divider='rainbow')
+    st.write("This is a simple app that accepts an image from the user and detects if any Dinosaus are present in that image.")
+
 
 file = st.file_uploader("Upload the photo or image you want to check for any hidden Dinosaurs.", type=["jpg", "jpeg", "png"])
 img, result = st.columns(2)
