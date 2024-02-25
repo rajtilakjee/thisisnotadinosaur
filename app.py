@@ -36,7 +36,7 @@ safety_settings = [
 st.set_page_config(
     page_title="This is Not a Dinosaur",
     layout="centered",
-    initial_sidebar_state='expanded'
+    initial_sidebar_state="expanded"
 )
 
 st.image('static/dino-logo.png',width=100)
