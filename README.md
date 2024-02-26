@@ -21,3 +21,4 @@ Simple. Let me know what do you think about this; whether you like it, hate it, 
 - [ ] - Add LangChain support
 - [ ] - Add support for WebP format
 - [ ] - Stop hallucination
+- [ ] - Add authentication
