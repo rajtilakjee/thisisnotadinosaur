@@ -20,3 +20,4 @@ Simple. Let me know what do you think about this; whether you like it, hate it, 
 ## Roadmap
 - [ ] - Add LangChain support
 - [ ] - Add support for WebP format
+- [ ] - Stop hallucination
