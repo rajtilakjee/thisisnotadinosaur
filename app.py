@@ -66,4 +66,9 @@ with col1:
     st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
 
 with col2:
-    st.write("<iframe id='kofiframe' src='https://ko-fi.com/rajtilakjee/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='rajtilakjee'></iframe>")
+    st.markdown('''
+    <a href="https://ko-fi.com/rajtilakjee">
+        <img src="static/kofi_bg_tag_white.webp" />
+    </a>''',
+    unsafe_allow_html=True
+)
