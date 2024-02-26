@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 import PIL.Image
-from streamlit_extras.buy_me_a_coffee import button
 
 
 load_dotenv()
@@ -67,4 +66,4 @@ with col1:
     st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
 
 with col2:
-    button(username="rajtilakjee", floating=False, width=221)
+    st.markdown("[![Ko-fi](static/kofi_bg_tag_white.png)](https://ko-fi.com/rajtilakjee)")
