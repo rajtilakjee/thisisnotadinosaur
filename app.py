@@ -66,4 +66,4 @@ with col1:
     st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
 
 with col2:
-    st.markdown("[![Ko-fi](static/kofi_bg_tag_white.png)](https://ko-fi.com/rajtilakjee)")
+    st.markdown("[![Ko-fi](st.image('static/kofi_bg_tag_white.png'))](https://ko-fi.com/rajtilakjee)")
