@@ -60,10 +60,4 @@ with result:
         for candidate in response.candidates:
             st.write(part.text for part in candidate.content.parts)
 
-col1, col2 = st.columns([3,1])
-
-with col1:
-    st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
-
-with col2:
-    st.markdown("[![Ko-fi](st.image('static/kofi_bg_tag_white.png'))](https://ko-fi.com/rajtilakjee)")
+st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
