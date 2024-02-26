@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 import PIL.Image
-import streamlit.components.v1 as components
 
 
 
@@ -62,15 +61,4 @@ with result:
         for candidate in response.candidates:
             st.write(part.text for part in candidate.content.parts)
 
-col1, col2 = st.columns([3,1])
-
-with col1:
-    st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
-
-with col2:
-    components.iframe(
-    src="https://ko-fi.com/codingisfun/?hidefeed=true&widget=true&embed=true&preview=true",
-    width=None,
-    height=800,
-    scrolling=False,
-    )
+st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
