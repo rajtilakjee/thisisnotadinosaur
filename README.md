@@ -10,7 +10,7 @@ For fun...and a bit more. I am a Machine Learning Engineer with 20 years of work
 ## Noice, isn't it? What can you do?
 Simple. Let me know what do you think about this; whether you like it, hate it, had fun with it, broke it, anything. As Thor Odinson said, it would make me feel that "I'm still worthy!" You are also welcome to contribute if you want. And if you are feeling generous, consider donating so that I can continue to create more apps like this.
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'G2G7U91FI');kofiwidget2.draw();</script>
+<a href='https://ko-fi.com/G2G7U91FI' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Tech Stack
 - Python
