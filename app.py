@@ -68,9 +68,9 @@ with col1:
     st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
 
 with col2:
-    components.html(
-    """
-    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-    <script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'X7X47Q0EG');kofiwidget2.draw();</script>
-    """,
+    components.iframe(
+    src="https://ko-fi.com/codingisfun/?hidefeed=true&widget=true&embed=true&preview=true",
+    width=None,
+    height=800,
+    scrolling=False,
     )
