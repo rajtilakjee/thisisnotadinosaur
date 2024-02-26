@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 import PIL.Image
+import streamlit.components.v1 as components
+
 
 
 load_dotenv()
@@ -60,4 +62,15 @@ with result:
         for candidate in response.candidates:
             st.write(part.text for part in candidate.content.parts)
 
-st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
+col1, col2 = st.columns([3,1])
+
+with col1:
+    st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
+
+with col2:
+    components.html(
+    """
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+    <script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'X7X47Q0EG');kofiwidget2.draw();</script>
+    """,
+    )
