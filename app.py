@@ -60,4 +60,10 @@ with result:
         for candidate in response.candidates:
             st.write(part.text for part in candidate.content.parts)
 
-st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
+col1, col2 = st.columns([3,1])
+
+with col1:
+    st.link_button('Report Feedback, Issues, or Contribute!', "https://github.com/rajtilakjee/thisisnotadinosaur/issues", use_container_width=True)
+
+with col2:
+    st.write("<iframe id='kofiframe' src='https://ko-fi.com/rajtilakjee/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='rajtilakjee'></iframe>")
