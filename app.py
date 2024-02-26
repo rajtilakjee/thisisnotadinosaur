@@ -68,7 +68,7 @@ with col1:
 with col2:
     st.markdown('''
     <a href="https://ko-fi.com/rajtilakjee">
-        <img src="static/kofi_bg_tag_white.webp" />
+        <img src="static/kofi_bg_tag_white.png" />
     </a>''',
     unsafe_allow_html=True
 )
